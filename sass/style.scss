@@ -425,3 +425,39 @@ body {
         }
     }
 }
+
+.cection__specifications{
+    width: 100%;
+
+
+    .container__specifications{
+        max-width: 1200px;
+        height: 1025px;
+
+        h2{
+            margin: 100px 0px 50px 0px
+        }
+
+        .specifications__contant{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .specifications__block{
+            height: 74px;
+            
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specifications__text{
+            width: 570px;
+            height: 24px;
+        }
+
+
+    }
+}
+
+
+
