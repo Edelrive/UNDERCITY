@@ -293,21 +293,6 @@ body {
   font-size: 16px;
   line-height: 150%;
 }
-.section__location .container__location .img_location {
-  background-image: url(../img/snazzy-image\ 1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 570px;
-  height: 518px;
-  position: relative;
-}
-.section__location .container__location .img_location img {
-  position: absolute;
-  top: 47%;
-  right: 43%;
-  bottom: 53%;
-  left: 54%;
-}
 
 .section__style {
   width: 100%;
