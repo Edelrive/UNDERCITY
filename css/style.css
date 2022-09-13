@@ -129,6 +129,7 @@ ul {
 
 body {
   background-color: #F3F3F3;
+  font-family: "SF Pro Display";
 }
 
 .container {
@@ -352,7 +353,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 1200px;
+  max-width: 1200px;
   height: 1274px;
 }
 .section__offers .container__offers .contant__offer_first {
@@ -490,8 +491,20 @@ body {
 }
 .section__footer .container__footer {
   height: 666px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section__footer .container__footer .footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .section__footer .container__footer .footer__signup {
+  width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -550,14 +563,77 @@ body {
   color: #F3F3F3;
   border: solid 1px #959595;
 }
-.section__footer .container__footer .footer__signup .checkbox {
+.section__footer .container__footer .footer__signup .form__gava {
   display: block;
   padding-top: 50px;
   color: #F3F3F3;
+  width: 300px;
+  font-size: 12px;
 }
-.section__footer .container__footer .footer__signup .input__gava {
-  display: inline-block;
+.section__footer .container__footer .footer__signup .form__gava .input__gava {
+  margin-right: 20px;
 }
 .section__footer .container__footer .footer__signup span {
   text-decoration: underline;
+}
+.section__footer .container__footer .footer__contacts {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #F3F3F3;
+}
+.section__footer .container__footer .footer__contacts h2 {
+  padding-bottom: 50px;
+  color: #F3F3F3;
+  padding-top: 100px;
+}
+.section__footer .container__footer .footer__contacts .adress {
+  width: 202px;
+  height: 48px;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section__footer .container__footer .footer__contacts a {
+  text-decoration: underline;
+}
+.section__footer .container__footer .footer__contacts .footer__icons {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section__footer .footer__nav {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.section__footer .footer__nav .footer__content__nav {
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+}
+.section__footer .footer__nav span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
 }

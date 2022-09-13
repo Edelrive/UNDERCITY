@@ -129,6 +129,8 @@ ul {
 
 body {
     background-color: #F3F3F3;
+    font-family: 'SF Pro Display';
+
 }
 
 .container {
@@ -275,23 +277,6 @@ body {
             font-size: 16px;
             line-height: 150%;
         }
-
-        // .img_location {
-        //     background-image: url(../img/snazzy-image\ 1.jpg);
-        //     background-repeat: no-repeat;
-        //     background-size: cover;
-        //     width: 570px;
-        //     height: 518px;
-        //     position: relative;
-
-        //     img {
-        //         position: absolute;
-        //         top: 47%;
-        //         right: 43%;
-        //         bottom: 53%;
-        //         left: 54%;
-        //     }
-        // }
     }
 }
 
@@ -343,7 +328,7 @@ body {
     .container__offers {
         display: flex;
         justify-content: space-between;
-        width: 1200px;
+        max-width: 1200px;
         height: 1274px;
 
         .contant__offer_first {
@@ -465,15 +450,19 @@ body {
 .section__footer{ 
     width: 100%; 
     background-color: #2B2B2B; 
+
  
     .container__footer{ 
         height: 666px; 
- 
-        // .footer__content{ 
-             
-        // } 
+        display: flex;
+        justify-content: space-between;
+
+        .footer__content{ 
+            display: flex;
+        } 
  
         .footer__signup{ 
+            width: 600px;
             display: flex; 
             flex-direction: column; 
             h2{ 
@@ -522,25 +511,85 @@ body {
                     border: solid 1px #959595; 
                 } 
             } 
- 
-            .checkbox{ 
+
+            .form__gava{
                 display: block; 
                 padding-top: 50px; 
                 color: #F3F3F3; 
-            } 
- 
-            .input__gava{ 
- 
-                display: inline-block; 
-            } 
- 
+                width: 300px;
+                font-size: 12px;
+
+
+                .input__gava{
+                    margin-right: 20px;
+                }
+            }
+
             span{ 
                 text-decoration: underline; 
             } 
-             
-        } 
+        }
+
+        .footer__contacts{
+            width: 600px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: #F3F3F3;
+
+            .footer__contacts__inside{
+
+            }
+
+            h2{
+                padding-bottom: 50px;
+                color: #F3F3F3;
+                padding-top: 100px;
+            }
+
+            .adress{
+                width: 202px;
+                height: 48px;
+                font-size: 16px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            a{
+                text-decoration: underline;
+            }
+
+            .footer__icons{
+                margin-top: 50px;
+                display:flex ;
+                justify-content: space-between;
+            }
+        }           
     } 
+
+    .footer__nav{     
+        margin: 0 auto;
+        max-width: 1200px;
+
+        .footer__content__nav{
+            height: 68px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+        }
+       
+        span{
+            display: flex;
+            justify-content: space-between;
+            width: 600px;
+        }
+    }
+
 }
+
+
+
+
 
 
 
