@@ -254,15 +254,18 @@ body {
 
         }
 
-        .img__about_the_project {
-            width: 570px;
-            height: 589px;
-            
-        }
-
         .img__about_the_project__640{
             display: none;
         }
+
+        .img__about_the_project {
+            width: 570px;
+            height: 589px;
+        }
+
+
+
+    
     }
 }
 
@@ -293,11 +296,31 @@ body {
 
         p {
             padding-top: 25px;
-            width: 570px;
+            // width: 570px;
             font-weight: 400;
             font-size: 16px;
             line-height: 150%;
         }
+
+        // .img_location{
+        //     display: block;
+        // }
+
+        .location__map{
+            display: block;
+        }
+
+        .img_location__640{
+            h2{
+                display: none;
+            }
+        }
+
+        .location__map__640{
+            display: none;
+        }
+
+       
     }
 }
 
