@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (max-width: 400px) {
   .section__header .container__header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -93,7 +93,7 @@
     color: #F6F6F6;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 400px) {
   .section__about_the_project {
     width: 100%;
     display: -webkit-box;
@@ -101,18 +101,15 @@
     display: flex;
   }
   .section__about_the_project .container__about_the_project {
+    max-width: 400px;
     margin-top: 200px;
-    height: 789px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    display: block;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
   }
   .section__about_the_project .container__about_the_project .contant__about_the_project {
     margin-top: 0px;
-    max-width: 600px;
     margin-right: 30px;
   }
   .section__about_the_project .container__about_the_project h2 {
@@ -128,7 +125,10 @@
     font-size: 16px;
     line-height: 135%;
   }
-  .section__about_the_project .container__about_the_project .img__about_the_project__640 {
+  .section__about_the_project .container__about_the_project .img__about_the_project__400 {
+    display: block;
+  }
+  .section__about_the_project .container__about_the_project .img__400 {
     display: block;
   }
   .section__about_the_project .container__about_the_project .img__about_the_project {
@@ -143,9 +143,8 @@
     display: flex;
   }
   .section__location .container__location {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    margin-top: 50px;
+    display: block;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
@@ -164,16 +163,20 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .section__location .container__location h2 {
-    display: none;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .section__location .container__location p {
     padding-top: 25px;
+    width: 380px;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    padding-right: 0px;
   }
   .section__location .container__location .location__map__640 {
     margin-top: 20px;
@@ -188,5 +191,9 @@
   }
   .section__location .container__location .location__map {
     display: none;
+  }
+  .section__location .container__location .img_location__400 {
+    display: block;
+    padding-left: 30px;
   }
 }

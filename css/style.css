@@ -269,7 +269,8 @@ body {
   font-size: 16px;
   line-height: 150%;
 }
-.section__about_the_project .container__about_the_project .img__about_the_project__640 {
+.section__about_the_project .container__about_the_project .img__about_the_project__400 {
+  width: 400px;
   display: none;
 }
 .section__about_the_project .container__about_the_project .img__about_the_project {
@@ -288,7 +289,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   max-width: 1200px;
-  height: 718px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -320,10 +320,7 @@ body {
 .section__location .container__location .location__map {
   display: block;
 }
-.section__location .container__location .img_location__640 h2 {
-  display: none;
-}
-.section__location .container__location .location__map__640 {
+.section__location .container__location .location__map__400 {
   display: none;
 }
 
@@ -332,6 +329,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 200px;
 }
 .section__style .container__style {
   max-width: 1200px;
